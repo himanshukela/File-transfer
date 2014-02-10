@@ -1,0 +1,16 @@
+TCP and UDP:
+run the command:
+peer1: ./client1
+peer2: ./client2
+
+Commands:
+
+FileDownload <Name of file>
+FileUpload <Name of file>
+FilaHash Verify <Name of file>
+FileHash CheckAll
+IndexGet LongList
+IndexGet ShortList <start date like i.e. 2013-01-01> <end date>
+IndexGet RegEx <exp eg *.cpp>
+Allow - to allow upload(default)
+Deny - to deny upload 
